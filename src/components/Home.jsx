@@ -20,7 +20,7 @@ const Home = () => {
               <span className="absolute text-[#4D4DFF] font-title text-[18px] left-2 mt-[-40px] opacity-80">
                 &lt;h1&gt;
               </span>
-              <div className="animate-rubberBand text-black">
+              <div className="animate-rubberBand text-white font-test font-bold">
                 <span
                   className={`inline-block animate-bounceIn hover:animate-rubberBand`}
                 >
@@ -29,10 +29,10 @@ const Home = () => {
                 <span
                   className={`inline-block animate-bounceIn hover:animate-rubberBand`}
                 >
-                  i
+                  f
                 </span>
               </div>
-              <div className="mt-3 mb-5 animate-rubberBand text-white">
+              <div className="mt-3 mb-5 animate-rubberBand text-white font-test font-bold">
                 <span
                   className={`inline-block animate-bounceIn hover:animate-rubberBand`}
                 >
