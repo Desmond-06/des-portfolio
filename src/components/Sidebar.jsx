@@ -34,7 +34,7 @@ const Sidebar = () => {
       {showNav && (
         <div
           onClick={handleToggleNav}
-          className="fixed inset-0 bg-black opacity-50 z-20 md:hidden"
+          className="fixed inset-0 bg-black opacity-50 z-20 sm:hidden"
         />
       )}
 
@@ -42,14 +42,14 @@ const Sidebar = () => {
       <FontAwesomeIcon
         onClick={handleToggleNav}
         icon={showNav ? faClose : faBars}
-        className="text-[#00ffee] text-3xl cursor-pointer fixed top-4 right-4 md:hidden z-40 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee]"
+        className="text-[#00ffee] text-3xl cursor-pointer fixed top-4 right-4 sm:hidden z-40 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee]"
       />
 
       {/* Sidebar */}
       <div
         className={`fixed top-0 left-0 h-full bg-black w-full transition-transform duration-300 z-30 ${
           showNav ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0 md:w-16 md:flex md:flex-col md:items-center md:justify-between shadow-[0_0_5px_#00ffee] `}
+        } sm:w-64 md:w-16 md:translate-x-0 md:flex md:flex-col md:items-center md:justify-between shadow-[0_0_5px_#00ffee] `}
       >
         <div className="flex flex-col h-full sticky top-0">
           <Link className="block py-2" to="/">
@@ -71,8 +71,8 @@ const Sidebar = () => {
                 to={path}
                 className={`group flex items-center rounded-lg p-4 text-center transition-all duration-300 md:flex-col md:items-center md:justify-center ${
                   showNav
-                    ? "md:hidden block text-white text-xl hover:shadow-lg hover:text-[#00ffee]"
-                    : "hidden md:flex text-white text-xl hover:text-[#00ffee] shadow-[0_0_5px_#00]"
+                    ? "sm:block md:hidden text-white text-xl hover:shadow-lg hover:text-[#00ffee]"
+                    : "hidden sm:block md:flex text-white text-xl hover:text-[#00ffee] shadow-[0_0_5px_#00]"
                 }`}
               >
                 <span className={`md:hidden ${showNav ? "block" : "hidden"}`}>

@@ -38,10 +38,10 @@ const Certificate = () => {
       <div className="min-h-screen p-4 ">
         {/* <div className="absolute inset-0 bg-gray-900 z-[-1]"></div> */}
         <div className="text-zone w-full md:w-1/2 md:p-10">
-          <h3 className="text-white text-5xl font-bold font-test animate-bounceIn hover:animate-bounce">
-            Certificates
-          </h3>
-          <div className="w-[16rem] h-1 bg-white animate-bounceIn absolute top-[7rem] left-[8rem]"></div>
+          <h1 className="text-5xl font-bold font-test animate-bounceIn mb-6 hover:animate-bounce text-white">
+            Certificate
+          </h1>
+          <div className="w-60 h-1 bg-white animate-bounceIn absolute top-[6.5rem]"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-10 px-5 sm:px-0">

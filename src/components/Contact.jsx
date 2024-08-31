@@ -12,10 +12,10 @@ const Contact = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center p-4">
         {/* Text Zone */}
         <div className="text-zone w-full lg:w-1/2 ">
-          <h1 className="text-5xl font-bold mb-5 font-test animate-bounceIn text-white hover:animate-bounce">
-            Contact Me
+          <h1 className="text-5xl font-bold font-test animate-bounceIn mb-6 hover:animate-bounce text-white">
+            Contact me
           </h1>
-          <div className="w-[18rem] h-1 bg-white animate-bounceIn absolute top-[4rem] left-[3rem] "></div>
+          <div className="w-60 h-1 bg-white animate-bounceIn absolute top-[4rem]"></div>
           <p className="font-robo text-lg md:text-xl mb-3 text-white animate-bounceIn">
             I'm a very ambitious fullstack developer looking for a role in an
             established IT company with opportunities for growth.
