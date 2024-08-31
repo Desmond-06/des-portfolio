@@ -34,27 +34,27 @@ const About = () => {
 
   return (
     <>
-      <div className="container flex flex-col lg:flex-row items-center justify-between w-full bg-gradient-to-b from-black to-gray-900 text-white pt-18 md:h-screen p-4">
+      <div className="container flex flex-col items-center justify-between w-full bg-gradient-to-b from-black to-gray-900 text-white pt-18 h-screen p-4">
         <div className="absolute inset-0 bg-black z-[-1]"></div>
         {/* Text Zone */}
-        <div className="text-zone w-full max-w-[1240px] p-5 md:p-10 relative">
-          <h1 className="text-5xl font-bold font-second animate-bounceIn mb-6 hover:animate-bounce ">
+        <div className="text-zone w-full max-w-[1240px] p-5 relative">
+          <h1 className="text-5xl font-bold font-second animate-bounceIn mb-6 hover:animate-bounce">
             About me
           </h1>
           <div className="w-60 h-1 bg-white animate-bounceIn absolute top-[5.5rem]"></div>
-          <p className="font-robo text-lg md:text-xl mt-3 animate-bounceIn">
+          <p className="font-robo text-lg mt-3 animate-bounceIn">
             Hello there! 👋 I'm Desmond Fernandis, a recent MCA graduate from
             MIT Manipal, eager to embark on an exciting journey in the tech
             world. My academic background has equipped me with a solid
             foundation in computer science, and I am now seeking opportunities
             to apply my knowledge and skills in a professional setting.
           </p>
-          <p className="font-robo text-lg md:text-xl mb-6 animate-bounceIn">
+          <p className="font-robo text-lg mb-6 animate-bounceIn">
             Explore my portfolio for a glimpse of my projects and skills. I am
             excited about the opportunity to leverage my knowledge and learn
             from experienced professionals in a real-world setting.
           </p>
-          <p className="font-robo text-lg md:text-xl mb-6 animate-bounceIn">
+          <p className="font-robo text-lg mb-6 animate-bounceIn">
             Let's build the future together! 🚀
           </p>
           <a
@@ -67,11 +67,11 @@ const About = () => {
         </div>
 
         {/* Tech Stack and Cube Spinner */}
-        <div className="tech-stack-section w-full md:w-1/2 flex flex-col items-center mt-10 md:mt-0">
+        <div className="tech-stack-section w-full flex flex-col items-center mt-10">
           <h1 className="tech-stack-heading text-3xl font-bold mb-10 hover:animate-bounce animate-bounceIn font-second">
             Tech Stack
           </h1>
-          <div className="cubespinner mt-9 ">
+          <div className="cubespinner mt-9">
             <div className="face1">
               <FontAwesomeIcon icon={faJava} color="#EFD81D" size="3x" />
             </div>
@@ -95,13 +95,13 @@ const About = () => {
       </div>
 
       {/* Skills Section */}
-      <div className=" flex flex-col items-center justify-center w-full bg-gradient-to-b from-gray-900 to-black text-white pt-18 p-4 ">
+      <div className="flex flex-col items-center justify-center w-full bg-gradient-to-b from-gray-900 to-black text-white pt-18 p-4">
         <div className="w-full max-w-[1240px]">
           <h3 className="text-white text-5xl font-bold p-2 font-second animate-bounceIn hover:animate-bounce">
             My Skills
           </h3>
           <div className="w-60 h-1 bg-white animate-bounceIn mb-10"></div>
-          <p className="font-robo text-lg md:text-xl mb-6">
+          <p className="font-robo text-lg mb-6">
             As a web developer, I am experienced in creating and implementing
             web designs, developing and maintaining websites, and ensuring
             optimal functionality and user experience. I am proficient in HTML,
@@ -115,7 +115,7 @@ const About = () => {
           </p>
 
           {/* Skills Bars */}
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid gap-4">
             {[
               { name: "HTML", width: htmlWidth },
               { name: "BOOTSTRAP", width: bootstrapWidth },
