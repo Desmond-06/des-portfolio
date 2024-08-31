@@ -34,7 +34,7 @@ const About = () => {
 
   return (
     <>
-      <div className="container flex flex-col md:flex-row items-center justify-between w-full bg-gradient-to-b from-black to-gray-900 text-white pt-18 md:h-screen p-4">
+      <div className="container flex flex-col lg:flex-row items-center justify-between w-full bg-gradient-to-b from-black to-gray-900 text-white pt-18 md:h-screen p-4">
         <div className="absolute inset-0 bg-black z-[-1]"></div>
         {/* Text Zone */}
         <div className="text-zone w-full max-w-[1240px] p-5 md:p-10 relative">
