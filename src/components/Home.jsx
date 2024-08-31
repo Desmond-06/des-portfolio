@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <div className="container mx-auto flex flex-col justify-center">
         <div className="absolute inset-0 bg-gray-900 z-[-1]"></div>
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24 mx-4 mt-24 md:px-8 lg:mx-16">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24 mx-4 md:px-8 lg:mx-16">
           {/* Text Zone */}
           <div className="text-zone w-full md:w-1/2 space-y-5 relative order-2 xl:order-none">
             <h1 className="text-4xl md:text-5xl font-vi relative">
@@ -125,7 +125,7 @@ const Home = () => {
               <a
                 href="DesmondF_Resume.pdf"
                 download="DesmondF_Fernandis_Resume.pdf"
-                className="bg-transparent text-pink-500 border-2 border-pink-500 text-lg px-6 py-2 rounded-md hover:bg-pink-500 hover:text-white font-robo font-bold shadow-[0_0_5px_#d53f8c] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#d53f8c] animate-rubberBand"
+                className="bg-transparent text-pink-500 border border-pink-500 text-lg px-6 py-2 rounded-md hover:bg-pink-500 hover:text-white font-robo font-bold shadow-[0_0_5px_#ffffff] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee] animate-rubberBand"
               >
                 My Resume
               </a>
