@@ -34,8 +34,8 @@ const About = () => {
 
   return (
     <>
-      <div className="container flex flex-col md:flex-row items-center justify-between w-full bg-gradient-to-b from-black to-gray-900 text-white pt-18 md:h-screen p-4">
-        <div className="absolute inset-0 bg-black z-[-1]"></div>
+      <div className="container flex flex-col md:flex-row items-center justify-between w-full text-white pt-18 md:h-screen p-4">
+        {/* <div className="absolute inset-0 bg-black z-[-1]"></div> */}
         {/* Text Zone */}
         <div className="text-zone w-full md:w-1/2 p-5 md:p-10 relative">
           <h1 className="text-5xl font-bold font-second animate-bounceIn mb-6 hover:animate-bounce ">
@@ -95,7 +95,7 @@ const About = () => {
       </div>
 
       {/* Skills Section */}
-      <div className=" flex flex-col items-center justify-center w-full bg-gradient-to-b from-gray-900 to-black text-white pt-18 p-4 ">
+      <div className=" flex flex-col items-center justify-center w-full  text-white pt-18 p-4 ">
         <div className="w-full max-w-[1240px]">
           <h3 className="text-white text-5xl font-bold p-2 font-second animate-bounceIn hover:animate-bounce">
             My Skills

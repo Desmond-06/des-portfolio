@@ -34,8 +34,9 @@ const Certificate = () => {
 
   return (
     <>
-      <div className="min-h-screen p-4 bg-gradient-to-b from-black to-gray-900">
-        <div className="absolute inset-0 bg-gray-900 z-[-1]"></div>
+      {/* bg-gradient-to-b from-black to-gray-900 */}
+      <div className="min-h-screen p-4 ">
+        {/* <div className="absolute inset-0 bg-gray-900 z-[-1]"></div> */}
         <div className="text-zone w-full md:w-1/2 md:p-10">
           <h3 className="text-white text-5xl font-bold font-test animate-bounceIn hover:animate-bounce">
             Certificates

@@ -18,7 +18,7 @@ const Photo = () => {
   }, []);
 
   return (
-    <div className="relative flex items-center justify-center w-full h-full">
+    <div className="">
       {/* Container to keep photo and circle in the same position */}
       <div className="relative w-[300px] xl:w-[506px] h-[300px] xl:h-[506px] flex items-center justify-center ">
         {/* Animated Circle */}

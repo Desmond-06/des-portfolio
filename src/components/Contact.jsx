@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="relative overflow-hidden">
       {/* Background Cover */}
-      <div className="absolute inset-0 bg-gray-900 z-[-1]"></div>
+      {/* <div className="absolute inset-0 bg-gray-900 z-[-1]"></div> */}
 
       <div className="container mx-auto flex flex-col lg:flex-row items-center p-4">
         {/* Text Zone */}

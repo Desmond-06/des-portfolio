@@ -1,14 +1,30 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    container: {
+      center: true,
+      padding: "15px",
+    },
+    screen: {
+      sm: "640px",
+      md: "768px",
+      lg: "960px",
+      xl: "1200px",
+    },
     extend: {
+      colors: {
+        // No need to define primary here as it's a gradient, not a solid color
+      },
+      backgroundImage: {
+        primary: "linear-gradient(to bottom, #000000, #1a202c)", // Defines the gradient as primary
+      },
       animation: {
         spincube: "spincube 12s ease-in-out infinite",
         fadeIn: "fadeIn 1s ease-out",
         rotateIn: "rotateIn 1s ease-out",
         rubberBand: "rubberBand 1s",
         bounceIn: "bounceIn 1s",
-        bounce: "bounce 1s infinite", // Add this line for bounce animation
+        bounce: "bounce 1s infinite",
       },
       keyframes: {
         spincube: {
@@ -88,7 +104,7 @@ module.exports = {
         vi: ["Matemasie"],
         second: ["Montserrat", "sans-serif"],
         robo: ["Chakra Petch"],
-        test:["Playfair Display", "serif"],
+        test: ["Playfair Display", "serif"],
       },
     },
   },

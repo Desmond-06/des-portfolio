@@ -29,12 +29,12 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="relative lg:w-16">
+    <div className="relative md:w-16">
       {/* Overlay */}
       {showNav && (
         <div
           onClick={handleToggleNav}
-          className="fixed inset-0 bg-black opacity-50 z-20 lg:hidden"
+          className="fixed inset-0 bg-black opacity-50 z-20 md:hidden"
         />
       )}
 
@@ -42,26 +42,26 @@ const Sidebar = () => {
       <FontAwesomeIcon
         onClick={handleToggleNav}
         icon={showNav ? faClose : faBars}
-        className="text-[#00ffee] text-3xl cursor-pointer fixed top-4 right-4 lg:hidden z-40 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee]"
+        className="text-[#00ffee] text-3xl cursor-pointer fixed top-4 right-4 sm:hidden z-40 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee]"
       />
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full bg-black  w-full transition-transform duration-300 z-30 ${
+        className={`fixed top-0 left-0 h-full bg-black w-full transition-transform duration-300 z-30 ${
           showNav ? "translate-x-0" : "-translate-x-full"
-        } lg:translate-x-0 lg:w-16 lg:flex lg:flex-col lg:items-center lg:justify-between shadow-[0_0_5px_#00ffee] `}
+        } md:translate-x-0 md:w-16 md:flex md:flex-col md:items-center md:justify-between shadow-[0_0_5px_#00ffee] `}
       >
         <div className="flex flex-col h-full sticky top-0">
           <Link className="block py-2" to="/">
             <img
               src={LogoSidebar}
               alt="logo"
-              className="w-16 h-auto mx-auto mt-4 "
+              className="w-16 h-auto mx-auto mt-4"
             />
           </Link>
 
           {/* Navigation Links */}
-          <nav className="flex flex-col items-center mt-8 space-y-4 lg:space-y-0 lg:mt-0">
+          <nav className="flex flex-col items-center mt-8 space-y-4 md:space-y-0 md:mt-0">
             {links.map(({ id, path, label, icon }) => (
               <NavLink
                 key={id}
@@ -69,16 +69,16 @@ const Sidebar = () => {
                 exact="true"
                 activeClassName="text-[#00ffee]"
                 to={path}
-                className={`group flex items-center rounded-lg p-4 text-center transition-all duration-300 lg:flex-col lg:items-center lg:justify-center ${
+                className={`group flex items-center rounded-lg p-4 text-center transition-all duration-300 md:flex-col md:items-center md:justify-center ${
                   showNav
-                    ? "lg:hidden block text-white text-xl hover:shadow-lg hover:text-[#00ffee]"
-                    : "hidden lg:flex text-white text-xl hover:text-[#00ffee] shadow-[0_0_5px_#00]"
+                    ? "md:hidden block text-white text-xl hover:shadow-lg hover:text-[#00ffee]"
+                    : "hidden md:flex text-white text-xl hover:text-[#00ffee] shadow-[0_0_5px_#00]"
                 }`}
               >
-                <span className={`lg:hidden ${showNav ? "block" : "hidden"}`}>
+                <span className={`md:hidden ${showNav ? "block" : "hidden"}`}>
                   {label}
                 </span>
-                <span className={`lg:block ${showNav ? "hidden" : "block"}`}>
+                <span className={`md:block ${showNav ? "hidden" : "block"}`}>
                   <FontAwesomeIcon
                     icon={icon}
                     className="text-xl ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee]"
@@ -89,7 +89,7 @@ const Sidebar = () => {
           </nav>
 
           {/* Social Media Links */}
-          <ul className="flex flex-col items-center mb-4 mt-auto lg:flex lg:items-center lg:mb-4 lg:mt-auto lg:space-y-4">
+          <ul className="flex flex-col items-center mb-4 mt-auto md:flex md:items-center md:mb-4 md:mt-auto md:space-y-4">
             <li className="my-2">
               <a
                 target="_blank"
