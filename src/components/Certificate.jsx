@@ -41,7 +41,7 @@ const Certificate = () => {
           <h3 className="text-white text-5xl font-bold font-test animate-bounceIn hover:animate-bounce">
             Certificates
           </h3>
-          <div className="w-[16rem] h-1 bg-white animate-bounceIn absolute top-[7rem] left-[4rem]"></div>
+          <div className="w-[16rem] h-1 bg-white animate-bounceIn absolute top-[7rem] left-[8rem]"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-10 px-5 sm:px-0">

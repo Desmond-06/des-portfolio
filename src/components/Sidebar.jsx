@@ -42,7 +42,7 @@ const Sidebar = () => {
       <FontAwesomeIcon
         onClick={handleToggleNav}
         icon={showNav ? faClose : faBars}
-        className="text-[#00ffee] text-3xl cursor-pointer fixed top-4 right-4 sm:hidden z-40 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee]"
+        className="text-[#00ffee] text-3xl cursor-pointer fixed top-4 right-4 md:hidden z-40 ease-in-out hover:scale-105 hover:shadow-[0_0_10px_#00ffee]"
       />
 
       {/* Sidebar */}

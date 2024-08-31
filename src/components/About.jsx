@@ -38,7 +38,7 @@ const About = () => {
         {/* <div className="absolute inset-0 bg-black z-[-1]"></div> */}
         {/* Text Zone */}
         <div className="text-zone w-full md:w-1/2 p-5 md:p-10 relative">
-          <h1 className="text-5xl font-bold font-second animate-bounceIn mb-6 hover:animate-bounce ">
+          <h1 className="text-5xl font-bold font-test animate-bounceIn mb-6 hover:animate-bounce ">
             About me
           </h1>
           <div className="w-60 h-1 bg-white animate-bounceIn absolute top-[5.5rem]"></div>
@@ -97,7 +97,7 @@ const About = () => {
       {/* Skills Section */}
       <div className=" flex flex-col items-center justify-center w-full  text-white pt-18 p-4 ">
         <div className="w-full max-w-[1240px]">
-          <h3 className="text-white text-5xl font-bold p-2 font-second animate-bounceIn hover:animate-bounce">
+          <h3 className="text-white text-5xl font-bold p-2 font-title animate-bounceIn hover:animate-bounce">
             My Skills
           </h3>
           <div className="w-60 h-1 bg-white animate-bounceIn mb-10"></div>

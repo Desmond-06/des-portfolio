@@ -27,7 +27,7 @@ const Home = () => {
                     H
                   </span>
                   <span className="inline-block animate-bounceIn hover:animate-rubberBand">
-                    f
+                    i
                   </span>
                 </div>
                 <div className="mt-2 mb-4 md:mt-3 md:mb-5 animate-rubberBand text-white font-test font-bold">
