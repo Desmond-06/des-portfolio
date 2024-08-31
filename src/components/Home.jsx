@@ -20,7 +20,7 @@ const Home = () => {
               <span className="absolute text-[#4D4DFF] font-title text-[18px] left-2 mt-[-40px] opacity-80">
                 &lt;h1&gt;
               </span>
-              <div className="animate-rubberBand text-white">
+              <div className="animate-rubberBand text-black">
                 <span
                   className={`inline-block animate-bounceIn hover:animate-rubberBand`}
                 >
